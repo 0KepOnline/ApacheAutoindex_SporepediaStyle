@@ -84,7 +84,7 @@ hr {
 /* Custom li Marker (for ?F=0) */
 li::marker {
     color: #009DFF;
-    font-family: 'galaxy';
+    font-family: 'Galaxy Bullet';
     content: '. ';
     font-size: 11px;
 }
