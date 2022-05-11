@@ -65,6 +65,12 @@ hr {
 }
 
 
+/* Parent Directory */
+.indexhead .indexcolicon img {
+    visibility: hidden;
+}
+
+
 /* Center : Icon / Last Modified Timestamp / Size */
 .indexcolicon, .indexcollastmod, .indexcolsize {
     text-align: center;
