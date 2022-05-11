@@ -3,6 +3,10 @@
     src: url('sporepedia_index/fonts/TrebuchetEABold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Galaxy Bullet';
+  src: url('sporepedia_index/fonts/GalaxyBullet.woff') format('woff');
+}
 
 /* Header */
 h1 {
@@ -82,6 +86,27 @@ tr:nth-child(3) > .indexcolname > a {
 /* Center : Icon / Last Modified Timestamp / Size */
 .indexcolicon, .indexcollastmod, .indexcolsize {
     text-align: center;
+}
+
+
+/* Custom li Marker (for ?F=0) */
+li::marker {
+    color: #009DFF;
+    font-family: 'galaxy';
+    content: '. ';
+    font-size: 11px;
+}
+
+
+/* Center pre (for ?F=1) */
+pre {
+    color: white;
+    width: 50%;
+    left: 25%;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: auto;
 }
 
 
