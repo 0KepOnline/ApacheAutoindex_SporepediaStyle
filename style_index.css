@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Trebuchet EA';
+    src: url('sporepedia_index/fonts/TrebuchetEABold.ttf') format('truetype');
+}
+
+
+/* Header */
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet EA';
+    color: #EFB500;
+    background: left no-repeat url(sporepedia_index/images/New_headerLeft.png), center url(sporepedia_index/images/New_TileMiddle.png);
+    height: 44px;
+    position: relative;
+    padding-top: 16px;
+    bottom: 10px;
+    width: calc(100% + 16px);
+    right: 8px;
+    font-size: 28px;
+    text-shadow: 0 0 10px black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.indexhead th a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Background Color */
+body {
+    background: #283F5B;
+}
+
+
+/* Normal Text */
+a, td {
+    color: white;
+    font-family: 'Trebuchet MS';
+    text-shadow: 0 0 4px black;
+}
+
+
+/* Highlighted Text */
+.indexcoldesc {
+    color: #FFDD4B;
+}
+
+
+/* Table Borders */
+table {
+    background: top no-repeat url(sporepedia_index/images/spd_table_top.png), bottom no-repeat url(sporepedia_index/images/spd_table_btm.png), url(sporepedia_index/images/spd_table_mid.png);
+    width: 700px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: auto;
+}
+
+hr {
+    box-shadow: 0 0 2px #253B55;
+    border-color: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/* Parent Directory */
+tr:nth-child(3) > .indexcolicon {
+    background: no-repeat center url(sporepedia_index/images/parent_icon.png);
+}
+
+tr:nth-child(3) > .indexcolname > a {
+    text-decoration: none;
+}
+
+.indexhead .indexcolicon img, tr:nth-child(3) > .indexcolicon > img, tr:nth-child(3) > .indexcolsize {
+    visibility: hidden;
+}
+
+
+/* Center : Icon / Last Modified Timestamp / Size */
+.indexcolicon, .indexcollastmod, .indexcolsize {
+    text-align: center;
+}
+
+
+/* Hide Apache Stamp */
+address {
+    display: none;
+}
